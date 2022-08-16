@@ -13,7 +13,7 @@ def calculate():
         tkinter.messagebox.showinfo("infomation", f"Answer is {result}")
         Label(app, text=result, width=10, font=(50)).pack()
     else:
-        tkinter.messagebox.showinfo("retry", "Please enter a value")
+        tkinter.messagebox.showwarning("warning", "Please enter a value")
 
 def deleteText():
     text_val.set("")
